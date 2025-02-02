@@ -8,6 +8,11 @@ project(KodoEngine)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Directories for {Static | Shared | Executable}
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
+
 # Add External Dependencies
 add_subdirectory(external)
 
@@ -46,4 +51,4 @@ target_include_directories(KodoEngine INTERFACE
 add_subdirectory(app)
 
 # Add Python Module
-add_subdirectory(module)
+add_subdirectory(python)

@@ -6,7 +6,7 @@ file(GLOB SOURCE_FILES
 )
 
 # Python Module
-pybind11_add_module(KodoModule ${SOURCE_FILES})
+pybind11_add_module(KodoPy ${SOURCE_FILES})
 
 # Link against the KodoEngine interface target
-target_link_libraries(KodoModule PRIVATE KodoEngine)
+target_link_libraries(KodoPy PRIVATE KodoEngine)
