@@ -1,13 +1,6 @@
 
 # -------------------- GLAD -------------------- #
-set(GLAD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/glad)
-set(GLAD_SRC
-    "${GLAD_DIR}/source/gl.c"
-)
-add_library(glad STATIC ${GLAD_SRC})
-target_include_directories(glad PUBLIC
-    "${GLAD_DIR}/include"
-)
+add_subdirectory(glad)
 
 # -------------------- GLFW -------------------- #
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
