@@ -4,7 +4,9 @@ After building the application there are two main outcomes.
 
 
 YouTube Channel.
+
 https://www.youtube.com/@KodoPy
 
-If you wish to support my work you can buy an appreciation token.
-https://kodopy.gumroad.com
+Support me!
+
+https://kodopy.gumroad.com/l/token
