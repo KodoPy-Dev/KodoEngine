@@ -4,9 +4,4 @@ After building the application there are two main outcomes.
 
 
 YouTube Channel.
-
 https://www.youtube.com/@KodoPy
-
-Support me!
-
-https://kodopy.gumroad.com/l/token
